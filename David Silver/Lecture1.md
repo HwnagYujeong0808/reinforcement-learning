@@ -18,3 +18,16 @@
 + **real hypothesis** : All goals can be described by the maximisation of expected cumulative reward
 + ex) 리워드를 maximize 하는 것 = 잘 걷는 것
 
+### Agent and Environment
+<p align="center"><img src="https://user-images.githubusercontent.com/66208800/173748500-e304716e-f21e-4898-a543-521929ed971b.png"></p>
+
++ 매 step마다 $A_t$ 실행, $O_t$ 관찰, $R_t$ receive 하는 과정 반복
+
+### History and State
+<p align="center"><img src="https://user-images.githubusercontent.com/66208800/173750281-6ff87be5-3128-4a93-b1d4-98de3fced73b.png"></p>
+
++ state 자체는 agent가 history의 정보를 가공해 다음의 상태를 결정하는 함수라고 볼 수 있다.
++ **History** is the sequence of observations, actions, rewards
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/66208800/173749953-7f5734a7-beed-437c-8fcd-570b0b3b576e.png"></p>
