@@ -14,7 +14,7 @@
 + make a humanoid robot walk
 
 ### Reward
-+ **cumulated reward**를 최대화하는 것이 agent의 목적이다. 
++ **cumulated reward**를 최대화하는 것, 즉 당장의 봅상보다는 미래의 받게 될 모든 보상의 총 합을 maximize 하는 것이 agent의 목적이다. 
 + **real hypothesis** : All goals can be described by the maximisation of expected cumulative reward
 + ex) 리워드를 maximize 하는 것 = 잘 걷는 것
 
@@ -31,3 +31,4 @@
 
 
 <p align="center"><img src="https://user-images.githubusercontent.com/66208800/173749953-7f5734a7-beed-437c-8fcd-570b0b3b576e.png"></p>
+
